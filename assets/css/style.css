@@ -1,0 +1,338 @@
+/*set up the totally size of the document, since its meant to be four total websites, 200% by 200%*/
+
+.container-fluid{
+  height: 200%;
+  box-sizing: border-box;
+  width:200%;
+  position:absolute;
+  overflow-y:hidden;
+  overflow-x: hidden;
+}
+/*hides scroll bars so the movement from one page to the next can be a surprise*/
+body{
+  overflow: hidden;
+}
+
+/*sets up border effects consistently across all divs*/
+div{
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+  position: absolute;
+  background: white;
+}
+/*position for all boxes z-index creates the layered effect*/
+.one{
+    height: 10%;
+    width: 42%;
+    top: -5%;
+    right: 44%;
+    z-index: 1;
+}
+.two{
+    height: 15%;
+    width: 8%;
+    top: 10%;
+    right: 93%;
+    z-index: 50;
+}
+
+.three{
+height: 10%;
+    width: 25%;
+    top: 6%;
+    right: 84%;
+    z-index: 2;
+
+}
+
+.four{
+    height: 38%;
+    width: 30%;
+    top: -11%;
+    right: -10%;
+    z-index: 4;
+
+}
+
+.five{
+    height: 19%;
+    width: 30%;
+    top: 23%;
+    right: -11%;
+    z-index: 5;
+}
+
+}
+
+.six{
+    height: 50%;
+    width: 36%;
+    top: 12%;
+    right: 70%;
+    z-index: 6;
+
+}
+
+.seven{
+    height: 24%;
+    width: 41%;
+    top: 42%;
+    right: 64%;
+    z-index: 7;
+
+}
+
+.eight{
+    height: 50%;
+    width: 30%;
+    top: 25%;
+    right: -19%;
+    z-index: 8;
+
+}
+
+.nine{
+height: 28%;
+    width: 17%;
+    top: 2%;
+    right: 32%;
+    z-index: 9;
+
+}
+
+.ten{
+ height: 19%;
+    width: 29%;
+    top: 20%;
+    right: 55%;
+    z-index: 10;
+
+}
+
+.eleven{
+     height: 35%;
+    width: 29%;
+    top: 24%;
+    right: 33%;
+
+}
+
+.tweleve{
+    height: 16%;
+    width: 11%;
+    top: 10%;
+    right: 78%;
+    z-index: 12;
+
+}
+
+.thirteen{
+    height: 30%;
+    width: 18%;
+    top: 13%;
+    right: 59%;
+    z-index: 13;
+    overflow-y: scroll;
+    padding: 25px;
+
+}
+
+.fourteen{
+    height: 42%;
+    width: 54%;
+    top: 80%;
+    right: 48%;
+    z-index: 14;
+
+}
+
+.fifteen{
+    height: 40%;
+    width: 10%;
+    top: 30%;
+    right: 80%;
+    z-index: 15;
+
+}
+
+.sixteen{
+height: 38%;
+    width: 23%;
+    top: 53%;
+    right: 54%;
+    z-index: 16;
+
+}
+
+.seventeen{
+height: 30%;
+    width: 30%;
+    top: 10%;
+    right: 4%;
+    z-index: 17;
+    overflow-y: scroll;
+    padding: 25px;
+
+
+}
+
+.eightteen{
+    height: 27%;
+    width: 20%;
+    top: 43%;
+    right: 20%;
+    z-index: 18;
+
+}
+
+.nineteen{
+    height: 20%;
+    width: 20%;
+    top: 90%;
+    right: 80%;
+    z-index: 19;
+
+}
+
+.twenty{
+ height: 40%;
+    width: 15%;
+    top: 70%;
+    right: 42%;
+    z-index: 20;
+
+
+}
+
+.twentyOne{
+    height: 15%;
+    width: 33%;
+    top: 90%;
+    right: 10%;
+    z-index: 21;
+
+}
+
+.twentyTwo{
+height: 20%;
+    width: 17%;
+    top: 82%;
+    right: -10%;
+    z-index: 22;
+}
+
+.twentyThree{
+height: 26%;
+    width: 28%;
+    top: 60%;
+    right: 5%;
+    z-index: 23;
+    padding: 25px;
+    padding-top: 70px;
+
+}
+
+.twentyFour{
+    height: 35%;
+    width: 17%;
+    top: 32%;
+    right: 41%;
+    z-index: 26;
+
+}
+/*the empty ids are anchors for the nav bars, they are exactly the same size and postion 
+of the each intended of four views. When I anchored to divs roughly located in teh center
+of each of these viewport positions it would revealed or resize the viewport, destroying the overall layout */
+
+#emptyOne{
+  height: 50%;
+  width: 50%;
+  top:0%;
+  left: 0%;
+  border-width: 0px;
+}
+#emptyTwo{
+  height: 50%;
+  width: 50%;
+  top:50%;
+  left: 0%;
+  border-width: 0px;
+}
+#emptyThree{
+  height: 50%;
+  width: 50%;
+  top:0%;
+  left: 50%;
+  border-width: 0px;
+}
+#emptyFour{
+  height: 50%;
+  width: 50%;
+  top:50%;
+  left: 50%;
+  border-width: 0px;
+}
+
+
+/*picture css, centering and text*/
+.profile{
+    position: absolute;
+    top: 14%;
+    left: 15%;
+    width: 70%;
+}
+.profile-text{
+    position: relative;
+    top: 83%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*general text css*/
+p{
+  font-size: 1.2em;
+  text-indent: 15px;
+  font-family: 'Khula', sans-serif;
+  line-height: 1.8;
+
+}
+
+ul{
+  font-size: 1.2em;
+  padding-left: 20px;
+  font-family: 'Khula', sans-serif;
+}
+
+h1{
+  padding-left: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+/*sets the position of origin for the moving nav bar */
+.nav{
+    text-align: left;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    padding-left: 20px;
+    /* margin-bottom: 0; */
+    font-size: 2em;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*breaks the annoying link effects, want to preserve the surprise*/
+a{
+  color: black;
+}
+a:hover{
+  color: black;
+  text-decoration: none;
+
+}
+a:focus{
+  color: black;
+  text-decoration: none;
+  outline: none;
+}
